@@ -4,7 +4,7 @@ let value2 = Math.floor((Math.random() * 6) + 1);
 if(value1 == 1) {
     document.querySelector(".img1").src = "../images/dice1.png"
 } else if (value1 == 2) {
-    document.qu
+    document.querySelector(".img2").src = "../images/dice2.png"
 }
 
 for(let i = 1; i <= 6; i++) {
